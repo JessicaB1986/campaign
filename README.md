@@ -5,4 +5,4 @@ I will improve this point for performance in production:
 - I will use a CDN for image storage
 
 
-Docker and container could be useful also to simplify deployment and make scaling and testing simpler.
+Docker and container could be useful also to simplify deployment and make scaling and testing simpler.# campaign
