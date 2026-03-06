@@ -279,15 +279,6 @@ function App() {
                         style={{ width: 48, height: 72, objectFit: 'cover', border: '1px solid #ccc', borderRadius: 4 }}
                       />
                       <span style={{ fontSize: 10 }}>{creative.filename}</span>
-                        <a
-                        href={creative.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ fontSize: 10 }}
-                        aria-label={creative.originalName ? `Visualizza immagine ${creative.originalName}` : 'Visualizza immagine creativa'}
-                        >
-                          visualizza l'immagine
-                        </a>
                     </div>
                   ))}
                 </div>
