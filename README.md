@@ -1,8 +1,7 @@
-I will improve this point for performance in production:
+I will implement the following improvements to enhance production performance:
 
 - Use a database instead of reading CSV files on every request.
-- I will use lazy loading for the thumbnails that can slow down the UI if we want to use an infinite scroll and not pagination
-- I will use a CDN for image storage
+- Implement lazy loading for thumbnails to prevent UI slowdowns, especially when using infinite scroll instead of pagination.
+- Use a CDN for image storage and delivery.
 
-
-Docker and container could be useful also to simplify deployment and make scaling and testing simpler.# campaign
+Additionally, using Docker and containers would simplify deployment and improve scalability.
